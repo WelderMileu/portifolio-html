@@ -1,0 +1,251 @@
+*, html, #root {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	outline: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	background-color: #0D0D0F;
+}
+
+.container {
+	padding: 0px 100px;
+}
+
+.nav {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.nav .nav-brend {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+.nav .nav-brend span {
+	font-size: 30px;
+	padding-right: 10px;
+	color: #fff;
+}
+
+.nav .bars span {
+	font-size: 40px;
+	color: #fff;
+}
+
+.banner {
+	position: relative;
+}
+
+.banner .content header h1 {
+	padding-top: 100px;
+	font-size: 48px;
+	max-width: 600px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.banner .content header h1 span {
+	color: #838383;
+}
+
+.banner .content p {
+	max-width: 509px;
+	font-size: 18px;
+	padding-top: 40px;
+	font-weight: 200;
+	color: #f1f1f1;
+}
+
+.banner .card {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	max-width: 479px;
+	height: 112px;
+	margin-top: 50px;
+	background-color: #202024;
+	border-radius: 20px;
+	padding: 15px 30px;
+}
+
+.banner .card div span {
+	font-size: 18px;
+	padding-top: 20px;
+	font-weight: 300;
+	color: #f1f1f1;
+}
+
+.banner .card div h2 {
+	font-size: 24px;
+	padding-top: 5px;
+	color: #fff;
+}
+
+.banner .card button {
+	width: 156px;
+	height: 63px;
+	border:none;
+	border-radius: 10px;
+	background-color: gray;
+	color: #fff;
+	font-size: 16px;
+	background-color: #00B996;
+}
+
+.banner img {
+	position: absolute;
+	top: -120px;
+	right: 0;
+	z-index: -1;
+}
+
+.informations {
+	width: 100%;
+	min-height: 186px;
+	background-color: #202024;
+	margin-top: 140px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.informations .card-information {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.informations .card-information .card-information-content {
+	padding-top: 3px;
+	padding-left: 15px;
+}
+
+.informations .card-information .card-information-content p {
+	font-weight: 700;
+	font-size: 18px;
+	color: #E7E7E7;
+}
+
+.informations .card-information .card-information-content span {
+	font-weight: 300;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 5px;
+}
+
+.informations .card-information .icon {
+	width: 80px;
+	height: 80px;
+	color: #fff;
+	border-radius: 20px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.informations .card-information:nth-child(1) .icon {
+	background: linear-gradient(180deg, #286A5F 70.31%, #01A181 100%);	
+}
+
+.informations .card-information:nth-child(2) .icon {
+	background: linear-gradient(180deg, #0021B1 70.31%, #002CEA 100%);
+}
+
+.informations .card-information:nth-child(3) .icon {
+	background: linear-gradient(180deg, #AB6F00 70.31%, #DC9000 100%);	
+}
+
+.informations .card-information .icon span {
+	font-size: 41.67px;
+}
+
+.sobre {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+}
+
+.sobre:before {
+	width: 500px;
+	height: 500px;
+	content: '';
+	position: absolute;
+	background-image: url('./Vector.svg');
+	z-index: -1;
+	top: -70px;
+	right: 0;
+}
+
+.sobre .sobre_content {
+	margin-top: 100px;
+}
+
+.sobre .sobre_content header h2{
+	font-size: 32px;
+	color: #fff;
+}
+
+.sobre .sobre_content p {
+	font-size: 18px;
+	color: #f1f1f1;
+	max-width: 436px;
+	margin-top: 10px;
+	font-weight: 300;
+}
+
+.sobre .sobre_content button {
+	width: 161px;
+	height: 48px;
+	border: 1px solid #11E4BC;
+	border-radius: 4px;
+	color: #11E4BC;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: transparent;
+	margin-top: 20px;
+}
+
+.sobre .sobre_content .skills {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.sobre .sobre_content .skills .skill-card {
+	width: 100px;
+	height: 100px;
+	background-color: #202024;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+.sobre .sobre_content .skills .skill-card i {
+	color: #11E4BC;
+	font-size: 50px;
+}
+
+
+
